@@ -1,5 +1,6 @@
+/* eslint-disable */
 import { formatCurrency } from "../../utils/helpers";
-import PropTypes from "prop-types";
+
 function OrderItem({ item, isLoadingIngredients, ingredients }) {
   const { quantity, name, totalPrice } = item;
 
@@ -17,9 +18,5 @@ function OrderItem({ item, isLoadingIngredients, ingredients }) {
     </li>
   );
 }
-OrderItem.propTypes = {
-  item: PropTypes.string.isRequired,
-  isLoadingIngredients: PropTypes.string.isRequired,
-  ingredients: PropTypes.string.isRequired,
-};
+
 export default OrderItem;

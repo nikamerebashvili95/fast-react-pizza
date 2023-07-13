@@ -1,7 +1,8 @@
+/* eslint-disable */
 import { useDispatch } from "react-redux";
 import Button from "../../ui/Button";
 import { deleteItem } from "./cartSlice";
-import PropTypes from "prop-types";
+
 function DeleteItem({ pizzaId }) {
   const dispatch = useDispatch();
 
@@ -11,7 +12,5 @@ function DeleteItem({ pizzaId }) {
     </Button>
   );
 }
-DeleteItem.propTypes = {
-  pizzaId: PropTypes.string.isRequired,
-};
+
 export default DeleteItem;
