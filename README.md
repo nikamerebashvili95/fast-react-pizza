@@ -41,3 +41,4 @@ Fast-React-Pizza project: You can choose the desired pizza, add it to the cart a
 
 - GitHub - [Nika Merebashvili](https://github.com/nikamerebashvili95)
 - LinkedIn - [Nika Merebashvili](https://www.linkedin.com/in/nikamerebashvili)
+- Portfolio - [Portfolio](https://nikamerebashvili95.github.io/portfolio-website/)
